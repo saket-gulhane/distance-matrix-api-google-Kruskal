@@ -1,6 +1,7 @@
 # distance-matrix-api-google-Kruskal
 Find minimum cost spanning tree on "n" cities, whose distance is calculated using Google Distance Matrix API.
 
+
 ## Inputs to be provided:  
   1. List of citites (file: "./inputs/cities.txt).
   2. List of pair of cities, whose edges has to be excluded to find spanning tree (file: "./inputs/remove.txt").  
@@ -9,7 +10,6 @@ Find minimum cost spanning tree on "n" cities, whose distance is calculated usin
   Input in "cities.txt" must be of format "indexNumber cityName" each on a new Line. Where indexNUmber starts from 0.
 
   Input in "remove.txt" must be of format "cityA cityB", where both city names are seperated by a space.
-        
   
 
 ## Output:
@@ -19,6 +19,7 @@ Find minimum cost spanning tree on "n" cities, whose distance is calculated usin
   ![alt text](https://user-images.githubusercontent.com/47126380/67140312-f3b07000-f276-11e9-8009-eb6993d7678a.png)
   
   
+  
 ## Description of python program:
   Algorithm used: Kruskal algorithm to find minimum cost spanning tree.
   "daaf.py": Used to geneate all possible edges and find the distance using Google Distance API between input cities, excluding edges given              as input in "./inputs/remove.txt" file.
@@ -26,6 +27,7 @@ Find minimum cost spanning tree on "n" cities, whose distance is calculated usin
   "edgesList.txt": Store edges and distance between 2 cities.
   
   "kruskal.py": Calculate the minimum cost spanning tree generated and store result in "./output/output.txt"
+  
 
 ## Reference:
    1. kruskal algorith: [https://en.wikipedia.org/wiki/Kruskal%27s_algorithm](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm)
