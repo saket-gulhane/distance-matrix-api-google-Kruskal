@@ -16,7 +16,7 @@ Find minimum cost spanning tree on "n" cities, whose distance is calculated usin
   1. List of "n-1" edges forming minimum cost spanning tree.
   2. Cost of spanning tree.
   
-  ![alt text](https://user-images.githubusercontent.com/47126380/67140312-f3b07000-f276-11e9-8009-eb6993d7678a.png)
+  ![alt text](https://user-images.githubusercontent.com/47126380/67140624-155f2680-f27a-11e9-9538-562afbdf6d4e.png)
   
   
   
