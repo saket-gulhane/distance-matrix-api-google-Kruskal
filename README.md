@@ -30,5 +30,5 @@ Find minimum cost spanning tree on "n" cities, whose distance is calculated usin
   
 
 ## Reference:
-   1. Kruskal algorithm: [https://en.wikipedia.org/wiki/Kruskal%27s_algorithm](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm)
-   2. Google API key Generation: [click](https://cloud.google.com/maps-platform/)
+   1. Kruskal algorithm: [Click here](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm)
+   2. Google API key Generation: [Click here](https://cloud.google.com/maps-platform/)
