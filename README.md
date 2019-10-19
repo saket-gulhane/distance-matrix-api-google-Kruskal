@@ -21,14 +21,14 @@ Find minimum cost spanning tree on "n" cities, whose distance is calculated usin
   
   
 ## Description of python program:
-  Algorithm used: Kruskal algorithm to find minimum cost spanning tree.
-  "daaf.py": Used to geneate all possible edges and find the distance using Google Distance API between input cities, excluding edges given              as input in "./inputs/remove.txt" file.
-  To get your own Google API key: [click here](https://cloud.google.com/maps-platform/)
-  "edgesList.txt": Store edges and distance between 2 cities.
+  1. Algorithm used: Kruskal algorithm to find minimum cost spanning tree.
+  2. "daaf.py": Used to geneate all possible edges and find the distance using Google Distance API between input cities, excluding edges         given as input in "./inputs/remove.txt" file.
+      To get your own Google API key: [click here.](https://cloud.google.com/maps-platform/)
+  3. "edgesList.txt": Store edges and distance between 2 cities.
   
-  "kruskal.py": Calculate the minimum cost spanning tree generated and store result in "./output/output.txt"
+  4. "kruskal.py": Calculate the minimum cost spanning tree generated and store result in "./output/output.txt"
   
 
 ## Reference:
-   1. kruskal algorith: [https://en.wikipedia.org/wiki/Kruskal%27s_algorithm](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm)
+   1. Kruskal algorithm: [https://en.wikipedia.org/wiki/Kruskal%27s_algorithm](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm)
    2. Google API key Generation: [click](https://cloud.google.com/maps-platform/)
